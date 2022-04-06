@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+''' Contains the implementation of pascal triangle '''
 
 
 def pascal_triangle(n):
+    ''' Returns a list of pascal triangles '''
     if n <= 0:
         return []
     else:
