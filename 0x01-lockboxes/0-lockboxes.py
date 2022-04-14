@@ -4,6 +4,8 @@
    methods:
      canUnlockAll(bool): unlocks all boxes
 """
+
+
 def canUnlockAll(boxes):
     """ returns true if all keys are found """
     keys = [0]
@@ -11,5 +13,4 @@ def canUnlockAll(boxes):
         for key in boxes[n]:
             if key not in keys and key < len(boxes):
                 keys.append(key)
-            
     return len(boxes) == len(keys)
