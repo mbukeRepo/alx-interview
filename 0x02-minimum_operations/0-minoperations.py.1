@@ -1,0 +1,24 @@
+def large_factor(n):
+    large = 0
+    for i in range(1, int(n/2) + 1):
+        if  n % i == 0:
+            large = i
+    return large
+
+def minOperations(n):
+    hs = 'hh'
+    h = 'h'
+    ops = 2
+    lfactor = large_factor(n)
+    while len(hs) < n:
+        if len(hs) == lfactor:
+            ops += 2
+            h = hs
+            print(hs, h)
+        else:
+            ops += 1
+            print(hs, h)
+        hs += h
+    return ops
+
+    
