@@ -15,6 +15,7 @@ status_codes = {
     "500": 0
 }
 
+
 def print_stats():
     print("File size: {}".format(size))
     for status in sorted(status_codes.keys()):
@@ -32,7 +33,6 @@ if __name__ == "__main__":
                     status_codes[components[-2]] += 1
             except:
                 pass
-        
             if count == 9:
                 print_stats()
                 count = -1
