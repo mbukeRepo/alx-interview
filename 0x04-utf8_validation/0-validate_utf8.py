@@ -4,6 +4,7 @@
 """
 
 def validUTF8(data):
+    """ implements utf-8 validation"""
     n_bytes = 0
     for num in data:
         bin_rep = format(num, "#010b")[-8:]
