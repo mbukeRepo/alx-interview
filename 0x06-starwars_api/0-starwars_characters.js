@@ -1,5 +1,5 @@
 #!/usr/bin/node
-/** 
+/**
    interacting with swapi api
    script will display challacters of a movie given movie Id
 **/
