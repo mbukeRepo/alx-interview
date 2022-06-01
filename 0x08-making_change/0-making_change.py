@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """ implements coin changes algorithm"""
 
+
 def makeChange(coins, total):
-    """ Args: 
+    """ Args:
         @coins: array of coins
         @total: integer(amount to make changes to)
     """
