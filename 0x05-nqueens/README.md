@@ -5,7 +5,7 @@ The **n-queens** puzzle is the problem of placing `n` queens on an `n x n` chess
 <pre>Input: n = 4
 Output: [[0, 1], [1, 3], [2, 0], [3, 2]]
 [[0, 2], [1, 0], [2, 3], [3, 1]]
-**Explanation:** There exist two distinct solutions to the 4-queens puzzle as shown above
+Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above
 </pre>
 
 **Example 2:**
