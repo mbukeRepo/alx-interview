@@ -7,7 +7,7 @@ def makeChange(coins, total):
         @coins: array of coins
         @total: integer(amount to make changes to)
     """
-    if total == 0:
+    if total <= 0:
         return 0
     dp = [total + 1] * (total + 1)
     dp[0] = 0
