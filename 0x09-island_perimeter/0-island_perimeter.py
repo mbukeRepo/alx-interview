@@ -4,7 +4,6 @@
 
 def dfs(i, j, grid, visit):
     """helper function that implements perimeter calculation"""
-    print("it is called")
     if i >= len(grid) or j >= len(grid[0]) or \
        i < 0 or j < 0 or grid[i][j] == 0:
         return 1
